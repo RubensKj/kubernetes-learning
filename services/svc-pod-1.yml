@@ -9,5 +9,5 @@ spec:
   ports:
     - port: 80
       # targetPort: 80
-      # Node port means the port will be exposed to outside world
+      # Node port means the port will be exposed to outside world.
       nodePort: 30000

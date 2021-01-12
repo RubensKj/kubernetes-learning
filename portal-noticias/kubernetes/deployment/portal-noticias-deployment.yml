@@ -33,8 +33,11 @@ spec:
               failureThreshold: 5
               initialDelaySeconds: 3
           resources:
-              requests:
+            limits:
                 cpu: 10m
+                memory: 1Gi
+            requests:
+              cpu: 10m
   selector:
     matchLabels:
       app: portal-noticias
